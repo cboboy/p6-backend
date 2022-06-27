@@ -35,7 +35,6 @@ app.use(express.json());
 
 // Pour sécuriser les headers
 app.use(helmet({
-  // palie au probleme affichage des images
   crossOriginResourcePolicy: false,
 }));
 
